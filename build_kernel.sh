@@ -3,5 +3,7 @@
 export ARCH=arm64
 export PLATFORM_VERSION=13
 
-make ARCH=arm64 physwizz_defconfig
+git submodule update --init --recursive
+
+make ARCH=arm64 horsty-dockersupport_defconfig
 make ARCH=arm64 -j16

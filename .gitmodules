@@ -1,0 +1,6 @@
+[submodule "toolchain/gcc/host/linux-x86/aarch64/aarch64-linux-android-4.9"]
+	path = toolchain/gcc/host/linux-x86/aarch64/aarch64-linux-android-4.9
+	url = https://github.com/Adrilaw/aarch64-linux-android-4.9-toolchain.git
+[submodule "KernelSU"]
+	path = KernelSU
+	url = https://github.com/rsuntk/KernelSU.git
