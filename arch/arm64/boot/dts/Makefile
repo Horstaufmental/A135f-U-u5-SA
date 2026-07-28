@@ -18,4 +18,4 @@ always    := $(DTB_LIST)
 
 dtbs: $(addprefix $(obj)/, $(DTB_LIST))
 
-clean-files := *.dtb*
+clean-files := *.dtb* */*.dtb* */*/*.dtb*
